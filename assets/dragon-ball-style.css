@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body {
+    background-color: #1c1c1c;
+    color: #f0e68c; /* Light yellow text color */
+}
+
+.header {
+    background-color: #ff6f00; /* Goku's outfit orange */
+}
+
+.nav-bar {
+    color: #0072ff; /* Vegeta's armor blue */
+}
+
+.button {
+    background-color: #0072ff;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 0, 0.7); /* Saiyan aura glow */
+}
+
+.button:hover {
+    background-color: #ff6f00;
+    box-shadow: 0px 0px 20px rgba(255, 111, 0, 0.8);
+}
+
+h1, h2, h3, .button {
+    font-family: 'Press Start 2P', cursive;
+}
+
+.slideshow-caption {
+    background: rgba(0, 0, 0, 0.7); /* Dark transparent background */
+    color: #ff6f00; /* Goku's outfit orange for text */
+    padding: 20px;
+}
+
+.saiyan-badge {
+    background-color: #0072ff;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.product-card {
+    box-shadow: 0px 0px 10px rgba(255, 255, 0, 0.7); /* Glow effect */
+    transition: transform 0.2s;
+}
+
+.product-card:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+}
